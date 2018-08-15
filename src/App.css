@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+SC:400,700");
+@import url("https://fonts.googleapis.com/css?family=Antic+Didone");
 .App-header {
   height: 60px;
   width: 100%;
@@ -30,7 +32,8 @@
   height: 700px;
   margin-top: 75px;
   z-index: 1;
-  filter: blur(2px); }
+  filter: blur(2px);
+  opacity: 0.9; }
 
 .front-img-text-left {
   writing-mode: vertical-rl;
@@ -44,7 +47,7 @@
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 4px;
-  font-family: "Playfair Display", serif;
+  font-family: "Antic Didone", serif;
   z-index: 10; }
 
 .front-img-text-right {
@@ -58,7 +61,21 @@
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 4px;
-  font-family: "Playfair Display", serif;
+  font-family: "Antic Didone", serif;
+  z-index: 10; }
+
+.front-img-text-right-down {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: white;
+  position: absolute;
+  display: block;
+  margin-top: 40vh;
+  margin-right: 15%;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: "Antic Didone", serif;
   z-index: 10; }
 
 .header-title {
@@ -67,7 +84,7 @@
   font-size: 1.5em;
   letter-spacing: 3px;
   font-weight: 600;
-  font-family: "Playfair Display", serif; }
+  font-family: "Antic Didone", serif; }
 
 .front-text-container {
   max-width: 900px;
@@ -157,7 +174,7 @@
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: "Playfair Display", serif;
+    font-family: "Antic Didone", serif;
     z-index: 10; }
   .front-img-text-right {
     writing-mode: vertical-rl;
@@ -170,7 +187,20 @@
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: "Playfair Display", serif;
+    font-family: "Antic Didone", serif;
+    z-index: 10; }
+  .front-img-text-right-down {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #1b1a18;
+    position: absolute;
+    display: block;
+    margin-top: 40vh;
+    margin-right: 0%;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Antic Didone", serif;
     z-index: 10; } }
 
 .fadeInUp {
@@ -254,3 +284,39 @@
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0); } }
+
+.rotateInDownRight {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes rotateInDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
