@@ -17,13 +17,22 @@ class App extends Component {
             <Row className="show-grid">
             <Col xs={12}>
               <Col xs={10} className="front-img-col" style={{borderTop:'4px solid white', borderBottom:'4px solid white'}}>
+              <div className="front-text-container">
                 <div className="front-img-text-left fadeInUp"><p>Visual brilliance</p></div>  
                 <div className="front-img-text-right fadeInDown"><p>Design</p></div> 
-              
+              </div>            
                 <img src={require('./img/test1.jpg')} className="front-img" />   
+                <div className="circle-test"></div>
               </Col>
-              <Col xs={1} className="col nopadding" style={{height:'100%'}}> <div class="stripe"></div></Col>
-              <Col xs={1} className="col nopadding" style={{height:'100%', borderBottom:'4px solid white', borderTop:'4px solid white'}}> <div class="stripe"></div></Col>
+              <Col xs={1} className="col nopadding" style={{height:'100%'}}> 
+                <div className="stripe"></div>
+              </Col>
+              <Col xs={1} className="col nopadding" style={{height:'100%', borderBottom:'4px solid white', borderTop:'4px solid white'}}> 
+                <div className="stripe">
+                <div className="fake-img"></div>
+                </div>
+                
+              </Col>
             </Col>
            </Row>
           </div>
