@@ -1,12 +1,13 @@
 @import 'styles/_colors.scss';
 @import 'styles/_fonts.scss';
 
-.App-header {
-  height:60px;
-  width:100%;
-  background-color:transparent;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 .App {
   background-color:$primary-black;
   overflow-x:hidden;
@@ -373,3 +374,5 @@
         opacity: 1;
         }
         } 
+=======
+>>>>>>> fe5006144fdd0e2de8c509179c51a832df5ae456

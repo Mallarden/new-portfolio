@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Grid, Col, Button } from 'reactstrap';
-import logo from './logo.svg';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import './App.css';
 
@@ -10,9 +7,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p class="nopadding nomargin header-title">wanton.</p>
+          <h1 className="text-center">En liten header</h1>
         </header>
         <div className="main">
+<<<<<<< HEAD
           <div className="empty-container">
             <Row className="show-grid">
             <Col xs={12}>
@@ -35,26 +33,11 @@ class App extends Component {
               </Col>
             </Col>
            </Row>
+=======
+          <div className="container">
+          
+>>>>>>> fe5006144fdd0e2de8c509179c51a832df5ae456
           </div>
-          <ScrollAnimation animateIn="fadeIn" offset="100" delay="100" animateOnce="true" duration="1.5" animatePreScroll="false">
-            <Row className="page-grid">
-                <Col sm={4} className="">
-                  <Col sm={11} className="item">  
-                  <img src={require('./img/test4.jpg')} className="grid-img" />   
-                  </Col>
-                </Col>
-                <Col sm={4} className="">
-                  <Col sm={11} className="item">
-                  <img src={require('./img/test3.jpg')} className="grid-img" />   
-                  </Col>
-                </Col>
-                <Col sm={4} className="">
-                  <Col sm={11} className="item">
-                  <img src={require('./img/test2.jpg')} className="grid-img" />   
-                  </Col>
-                </Col>
-            </Row>
-        </ScrollAnimation>
         </div>
       </div>
     );

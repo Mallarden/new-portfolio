@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700");
 .App-header {
   height: 60px;
@@ -317,3 +318,10 @@
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
+=======
+@import url("");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+>>>>>>> fe5006144fdd0e2de8c509179c51a832df5ae456
