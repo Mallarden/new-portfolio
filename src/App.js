@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Row, Grid, Col, Button } from 'reactstrap';
-import logo from './logo.svg';
+import { Col, Row } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
-
 import './App.css';
 
 class App extends Component {
@@ -30,15 +28,14 @@ class App extends Component {
               </Col>
               <Col xs={1} className="col nopadding" style={{height:'100%', borderBottom:'4px solid white', borderTop:'4px solid white'}}> 
                 <div className="stripe">
-                <div className="fake-img"></div>
+                <div className="fake-img" onClick={()=>{ alert('This is a fake image. Gotchu.'); }}></div>
                 </div>
-                
               </Col>
             </Col>
            </Row>
           </div>
           <ScrollAnimation animateIn="fadeIn" offset="100" delay="100" animateOnce="true" duration="1.5" animatePreScroll="false">
-            <Row className="page-grid">
+              <Row className="page-grid">
                 <Col sm={4} className="">
                   <Col sm={11} className="item">  
                   <img src={require('./img/test4.jpg')} className="grid-img" />   
@@ -54,9 +51,10 @@ class App extends Component {
                   <img src={require('./img/test2.jpg')} className="grid-img" />   
                   </Col>
                 </Col>
-            </Row>
-        </ScrollAnimation>
+              </Row>
+            </ScrollAnimation>
         </div>
+        
       </div>
     );
   }

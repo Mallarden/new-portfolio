@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Prata");
-.App-header {
-  height: 60px;
-  width: 100%;
-  background-color: transparent; }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
 
 .App {
-  background-color: #1b1a18;
+  background-color: #000000;
   overflow-x: hidden; }
 
 .nopadding {
@@ -134,11 +134,11 @@
 .stripe {
   height: 100%;
   width: 4px;
-  background-color: #FFFFFA; }
+  background-color: #FFF; }
 
 .fake-img {
   height: 700px;
-  background-color: #FFFFFA;
+  background-color: #FFF;
   margin-top: 75px;
   width: 40px;
   position: absolute;
@@ -162,7 +162,7 @@
   .front-img-text-left {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: #1b1a18;
+    color: #000000;
     position: absolute;
     display: block;
     left: 0;
@@ -176,7 +176,7 @@
   .front-img-text-right {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: #1b1a18;
+    color: #000000;
     position: absolute;
     display: block;
     margin-top: 10vh;
@@ -189,7 +189,7 @@
   .front-img-text-right-down {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: #1b1a18;
+    color: #000000;
     position: absolute;
     display: block;
     margin-top: 40vh;
