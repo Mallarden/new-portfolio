@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Col, Row } from 'reactstrap';
 import './App.css';
 
 class App extends Component {
@@ -7,10 +7,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="text-center">En liten header</h1>
+          <p class="nopadding nomargin header-title">wanton.</p>
         </header>
         <div className="main">
-<<<<<<< HEAD
           <div className="empty-container">
             <Row className="show-grid">
             <Col xs={12}>
@@ -33,10 +32,6 @@ class App extends Component {
               </Col>
             </Col>
            </Row>
-=======
-          <div className="container">
-          
->>>>>>> fe5006144fdd0e2de8c509179c51a832df5ae456
           </div>
         </div>
       </div>
