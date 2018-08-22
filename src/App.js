@@ -30,9 +30,8 @@ class App extends Component {
               </Col>
               <Col xs={1} className="col nopadding" style={{height:'100%', borderBottom:'4px solid white', borderTop:'4px solid white'}}> 
                 <div className="stripe">
-                <div className="fake-img"></div>
+                <div className="fake-img" onClick={()=>{ alert('This is a fake image. Gotchu.'); }}></div>
                 </div>
-                
               </Col>
             </Col>
            </Row>

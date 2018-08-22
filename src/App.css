@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900");
-@import url("https://fonts.googleapis.com/css?family=Cormorant+SC:400,700");
-@import url("https://fonts.googleapis.com/css?family=Antic+Didone");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700");
 .App-header {
   height: 60px;
   width: 100%;
@@ -32,8 +30,7 @@
   height: 700px;
   margin-top: 75px;
   z-index: 1;
-  filter: blur(2px);
-  opacity: 0.9; }
+  filter: blur(2px); }
 
 .front-img-text-left {
   writing-mode: vertical-rl;
@@ -47,7 +44,7 @@
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 4px;
-  font-family: "Antic Didone", serif;
+  font-family: "Nanum Myeongjo", serif;
   z-index: 10; }
 
 .front-img-text-right {
@@ -61,7 +58,7 @@
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 4px;
-  font-family: "Antic Didone", serif;
+  font-family: "Nanum Myeongjo", serif;
   z-index: 10; }
 
 .front-img-text-right-down {
@@ -75,7 +72,7 @@
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 4px;
-  font-family: "Antic Didone", serif;
+  font-family: "Nanum Myeongjo", serif;
   z-index: 10; }
 
 .header-title {
@@ -84,7 +81,7 @@
   font-size: 1.5em;
   letter-spacing: 3px;
   font-weight: 600;
-  font-family: "Antic Didone", serif; }
+  font-family: "Nanum Myeongjo", serif; }
 
 .front-text-container {
   max-width: 900px;
@@ -174,7 +171,7 @@
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: "Antic Didone", serif;
+    font-family: "Nanum Myeongjo", serif;
     z-index: 10; }
   .front-img-text-right {
     writing-mode: vertical-rl;
@@ -187,7 +184,7 @@
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: "Antic Didone", serif;
+    font-family: "Nanum Myeongjo", serif;
     z-index: 10; }
   .front-img-text-right-down {
     writing-mode: vertical-rl;
@@ -200,7 +197,7 @@
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: "Antic Didone", serif;
+    font-family: "Nanum Myeongjo", serif;
     z-index: 10; } }
 
 .fadeInUp {
