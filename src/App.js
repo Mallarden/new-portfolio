@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p class="nopadding nomargin header-title">wanton.</p>
+          <p class="nopadding nomargin header-title">anton andersson.</p>
         </header>
         <div className="main">
           <div className="empty-container">

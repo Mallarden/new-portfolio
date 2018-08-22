@@ -40,7 +40,7 @@
   margin-top:75px;
   z-index:1;
   filter: blur(2px);
-  opacity:0.9;
+ 
 }
 
 .front-img-text-left {
@@ -90,7 +90,7 @@
 }
 
 .header-title {
-  padding:10px;
+  padding:10px 20px;
   color:white;
   font-size:1.5em;
   letter-spacing:3px;
@@ -235,6 +235,44 @@
     letter-spacing:4px;
     font-family:$primary-font;
     z-index:10;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  
+  &,
+  .front-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1;
+  }
+  
+  .front-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* will-change: left; */
+  }
+  
+  &._move {
+    .front-image {
+      transition: left 0.9s cubic-bezier(0, 0, 0.2, 1);
+      left: -100%;
+    }
   }
 }
 
